@@ -1,0 +1,6 @@
+{
+  "name": "MwalimuSchemes - Kenyan CBC Curriculum & Schemes of Work Generator",
+  "description": "Transform Kenyan KICD curriculum designs into compliant, inspection-ready CBC schemes of work and lesson plans for Primary, Junior, and Senior School teachers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

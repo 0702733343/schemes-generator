@@ -1,0 +1,452 @@
+import { KICDCurriculumDesign } from '../types/scheme';
+
+export const KENYAN_CURRICULUM_DESIGNS: KICDCurriculumDesign[] = [
+  {
+    id: 'kicd-g7-int-sci-t1',
+    level: 'Junior School',
+    grade: 'Grade 7',
+    subject: 'Integrated Science',
+    term: 'Term 1',
+    recommendedCourseBook: 'KLB Top Scholar Integrated Science Grade 7 & Oxford Mentor',
+    defaultLessonsPerWeek: 4,
+    description: 'Comprehensive KICD curriculum design covering Mixtures, Elements & Compounds, and Living Things (Cell structure).',
+    strands: [
+      {
+        strandName: 'Mixtures, Elements and Compounds',
+        subStrands: [
+          {
+            subStrandName: 'Introduction to Mixtures & Pure Substances',
+            suggestedLessons: 4,
+            specificLearningOutcomes: [
+              'Differentiate between pure substances and mixtures using everyday examples',
+              'Classify common domestic mixtures into homogeneous and heterogeneous mixtures',
+              'Appreciate the role of mixtures in everyday household and industrial activities',
+            ],
+            keyInquiryQuestions: [
+              'How can we tell whether a substance is pure or a mixture?',
+              'Why is it necessary to classify substances in science?',
+            ],
+            coreCompetencies: ['Critical thinking and problem solving', 'Communication and collaboration'],
+            values: ['Responsibility', 'Integrity', 'Unity'],
+            pcis: ['Environmental education (proper disposal of mixed chemicals)'],
+            suggestedLearningExperiences: [
+              'Learners work in groups to examine salt, clean water, muddy water, air, and brass alloy',
+              'Learners record observable characteristics and tabulate pure substances vs mixtures',
+              'Learners discuss the safety precautions when handling unknown domestic substances',
+            ],
+            suggestedResources: [
+              'Salt, sugar, sand, clean water, glass beakers, spatulas',
+              'KLB Top Scholar Integrated Science Grade 7 Learner’s Book Pg 2-9',
+              'Chart showing classification of matter',
+            ],
+            suggestedAssessment: ['Observation checklist during group classification', 'Oral questioning', 'Written exercise'],
+          },
+          {
+            subStrandName: 'Separation of Mixtures: Filtration and Decantation',
+            suggestedLessons: 4,
+            specificLearningOutcomes: [
+              'Identify apparatus and materials used for filtration and decantation',
+              'Perform separation of insoluble solid-liquid mixtures using filtration and decantation',
+              'Demonstrate safety precautions when setting up filtration apparatus',
+            ],
+            keyInquiryQuestions: [
+              'How can we obtain clean water from muddy river water?',
+              'What differences exist between filtration and decantation?',
+            ],
+            coreCompetencies: ['Critical thinking', 'Creativity and imagination', 'Digital literacy'],
+            values: ['Responsibility', 'Respect', 'Care for resources'],
+            pcis: ['Water safety and hygiene', 'Disaster risk reduction (floods & contaminated water)'],
+            suggestedLearningExperiences: [
+              'Learners fold filter paper correctly and fit it into a conical funnel',
+              'Learners separate a mixture of sand and water, and chalk dust and water',
+              'Learners compare the clarity of filtrate obtained by decantation vs filtration',
+            ],
+            suggestedResources: [
+              'Filter funnel, filter paper, conical flask, beaker, sand, muddy water, stirrers',
+              'KLB Top Scholar Integrated Science Grade 7 Pg 10-18',
+            ],
+            suggestedAssessment: ['Practical observation rubric (folding filter paper, pouring technique)', 'Written lab report'],
+          },
+          {
+            subStrandName: 'Separation of Mixtures: Evaporation and Simple Distillation',
+            suggestedLessons: 4,
+            specificLearningOutcomes: [
+              'Explain the principle behind separation by evaporation and simple distillation',
+              'Recover common salt from salt solution through evaporation to dryness',
+              'Describe the application of distillation in desalination and industrial purification',
+            ],
+            keyInquiryQuestions: [
+              'How can both the solute and solvent be recovered from a solution?',
+              'Why is distillation crucial for arid and semi-arid coastal areas?',
+            ],
+            coreCompetencies: ['Critical thinking & problem solving', 'Self-efficacy'],
+            values: ['Patience', 'Integrity', 'Care for apparatus'],
+            pcis: ['Financial literacy (saving cost on clean water)', 'Environmental awareness'],
+            suggestedLearningExperiences: [
+              'Learners heat salt solution in an evaporating dish until crystals form',
+              'Learners observe a simple distillation apparatus setup and trace the flow of water',
+              'Learners discuss local and commercial applications such as production of distilled water for car batteries',
+            ],
+            suggestedResources: [
+              'Evaporating dish, Bunsen burner/spirit lamp, tripod stand, wire gauze, salt solution, delivery tube',
+              'Oxford Mentor Integrated Science Grade 7 Pg 22-31',
+            ],
+            suggestedAssessment: ['Observation of safe heating technique', 'Oral presentation', 'Rubric on lab safety'],
+          },
+          {
+            subStrandName: 'Paper Chromatography',
+            suggestedLessons: 3,
+            specificLearningOutcomes: [
+              'Define paper chromatography as a separation technique for colored pigments',
+              'Separate dyes in black marker ink and plant leaf extracts using filter paper strips',
+              'Calculate Rf values or compare distances moved by different dye components',
+            ],
+            keyInquiryQuestions: ['Is black ink made of only one color?', 'How do forensic scientists identify inks?'],
+            coreCompetencies: ['Critical thinking', 'Creativity and imagination'],
+            values: ['Honesty', 'Appreciation of nature'],
+            pcis: ['Drug abuse prevention (testing of narcotics/doping)'],
+            suggestedLearningExperiences: [
+              'Learners spot black/green ink on chromatography paper and suspend in ethanol or water',
+              'Learners observe separation into constituent colors as solvent ascends',
+              'Learners interpret chromatograms in small groups',
+            ],
+            suggestedResources: [
+              'Filter paper strips, water-soluble felt pens, boiling tubes/beakers, solvent (ethanol/water), clips',
+              'Spotlight CBC Integrated Science Grade 7 Pg 34-40',
+            ],
+            suggestedAssessment: ['Evaluation of produced chromatograms', 'Written Q&A'],
+          },
+        ],
+      },
+      {
+        strandName: 'Living Things and Their Environment',
+        subStrands: [
+          {
+            subStrandName: 'The Light Microscope and Cell Structure',
+            suggestedLessons: 6,
+            specificLearningOutcomes: [
+              'Identify the parts and functions of a compound light microscope',
+              'Demonstrate proper care, handling, and focusing of a microscope',
+              'Prepare temporary wet mounts of plant cells (onion epidermal cells)',
+              'Draw and label plant and animal cell structures as seen under the light microscope',
+            ],
+            keyInquiryQuestions: [
+              'Why can’t the naked human eye see cells?',
+              'How do plant and animal cells differ in structure and function?',
+            ],
+            coreCompetencies: ['Digital literacy', 'Critical thinking', 'Self-efficacy'],
+            values: ['Responsibility', 'Care for delicate equipment'],
+            pcis: ['Health education (cellular basis of diseases)'],
+            suggestedLearningExperiences: [
+              'Learners carry the microscope using both hands (arm and base)',
+              'Learners peel thin onion skin, stain with iodine solution, and view under low and medium power',
+              'Learners prepare cheek cell smear, stain with methylene blue, and compare with plant cells',
+              'Learners draw and label the cell wall, cell membrane, cytoplasm, nucleus, and chloroplasts',
+            ],
+            suggestedResources: [
+              'Light microscope, glass slides, cover slips, onion bulb, iodine solution, methylene blue, mounted needles, dropper',
+              'KLB Top Scholar Integrated Science Grade 7 Pg 44-58',
+            ],
+            suggestedAssessment: ['Performance checklist on microscope focusing', 'Accurate scientific cell drawings with magnification rules'],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'kicd-g7-maths-t1',
+    level: 'Junior School',
+    grade: 'Grade 7',
+    subject: 'Mathematics',
+    term: 'Term 1',
+    recommendedCourseBook: 'KLB Top Scholar Mathematics Grade 7 / Mentor Mathematics',
+    defaultLessonsPerWeek: 5,
+    description: 'KICD Mathematics curriculum design covering Integers, Fractions, Decimals, Squares, Square Roots, and Algebraic Expressions.',
+    strands: [
+      {
+        strandName: 'Numbers',
+        subStrands: [
+          {
+            subStrandName: 'Integers and Real Life Applications',
+            suggestedLessons: 6,
+            specificLearningOutcomes: [
+              'Represent positive and negative integers on a number line',
+              'Perform addition and subtraction of integers using the number line and algebraic rules',
+              'Apply integer operations in solving daily life problems involving profits, losses, and temperatures',
+            ],
+            keyInquiryQuestions: ['How do negative numbers help us represent financial debts and sub-zero temperatures?'],
+            coreCompetencies: ['Critical thinking & problem solving', 'Digital literacy'],
+            values: ['Integrity', 'Social justice'],
+            pcis: ['Financial literacy (savings, credit, overdrafts)'],
+            suggestedLearningExperiences: [
+              'Learners step forward and backward along a giant classroom floor number line',
+              'Learners solve integer word problems related to bank balances and thermometer readings',
+              'Learners use interactive digital math games or flashcards for integer arithmetic',
+            ],
+            suggestedResources: ['Number line charts, colored counters, financial transaction slips, KLB Top Scholar Maths Grade 7 Pg 1-15'],
+            suggestedAssessment: ['Speed drills', 'Written test', 'Word problem solving rubric'],
+          },
+          {
+            subStrandName: 'Fractions and Decimals',
+            suggestedLessons: 8,
+            specificLearningOutcomes: [
+              'Convert recurring decimals into fractions and vice versa',
+              'Apply BODMAS / PEMDAS order of operations in combined fraction and decimal problems',
+              'Solve real-life word problems involving sharing quantities in fractional amounts',
+            ],
+            keyInquiryQuestions: ['Why is precision in decimals vital in trade, banking, and medical dosing?'],
+            coreCompetencies: ['Critical thinking', 'Learning to learn'],
+            values: ['Honesty', 'Responsibility'],
+            pcis: ['Consumer protection', 'Health education (prescriptions)'],
+            suggestedLearningExperiences: [
+              'Learners work in pairs to convert recurring decimals like 0.333... or 0.166... to vulgar fractions',
+              'Learners analyze recipe measurements and compute required scaled amounts',
+            ],
+            suggestedResources: ['Fraction wheels, grid paper, calculators for verification, Mentor Mathematics Grade 7 Pg 20-38'],
+            suggestedAssessment: ['Class exercises', 'Peer assessment', 'Short diagnostic quizzes'],
+          },
+          {
+            subStrandName: 'Squares and Square Roots',
+            suggestedLessons: 6,
+            specificLearningOutcomes: [
+              'Determine squares of numbers by factors and mathematical tables',
+              'Find square roots of perfect squares by prime factorization',
+              'Estimate square roots of non-perfect squares using nearest square numbers',
+            ],
+            keyInquiryQuestions: ['How are squares and square roots applied in architectural floor planning?'],
+            coreCompetencies: ['Critical thinking', 'Creativity and imagination'],
+            values: ['Patience', 'Excellence'],
+            pcis: ['Safety in construction'],
+            suggestedLearningExperiences: [
+              'Learners arrange square unit tiles to form larger squares and deduce area relationships',
+              'Learners apply prime factorization trees to extract square roots',
+            ],
+            suggestedResources: ['Square grid paper, mathematical tables (4-figure tables), square counters'],
+            suggestedAssessment: ['Written exercises', 'Homework assignments'],
+          },
+        ],
+      },
+      {
+        strandName: 'Algebra',
+        subStrands: [
+          {
+            subStrandName: 'Algebraic Expressions and Simplification',
+            suggestedLessons: 6,
+            specificLearningOutcomes: [
+              'Form algebraic expressions from real life word descriptions',
+              'Simplify algebraic expressions by grouping like terms and expanding brackets',
+              'Substitute numerical values into algebraic expressions to evaluate solutions',
+            ],
+            keyInquiryQuestions: ['How can letters represent unknown quantities in everyday trade?'],
+            coreCompetencies: ['Communication and collaboration', 'Critical thinking'],
+            values: ['Unity', 'Respect'],
+            pcis: ['Entrepreneurship education'],
+            suggestedLearningExperiences: [
+              'Learners model algebraic expressions using algebra tiles or cutouts of different shapes',
+              'Learners formulate expressions representing the cost of multiple school items',
+            ],
+            suggestedResources: ['Algebra tiles, charts showing like terms, Spotlight Mathematics Grade 7 Pg 55-68'],
+            suggestedAssessment: ['Pair presentation', 'Written unit test'],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'kicd-g8-soc-stud-t1',
+    level: 'Junior School',
+    grade: 'Grade 8',
+    subject: 'Social Studies',
+    term: 'Term 1',
+    recommendedCourseBook: 'KLB Top Scholar Social Studies Grade 8 / Moran Social Studies',
+    defaultLessonsPerWeek: 4,
+    description: 'KICD Social Studies curriculum design covering Physical Environments of Eastern Africa, Population Distribution, and Culture & Heritage.',
+    strands: [
+      {
+        strandName: 'Natural and Built Environments',
+        subStrands: [
+          {
+            subStrandName: 'Physical Features and Formation of Eastern Africa',
+            suggestedLessons: 6,
+            specificLearningOutcomes: [
+              'Locate the major physical features of Eastern Africa on an atlas map',
+              'Explain the formation of the Great Rift Valley, volcanic, and block mountains',
+              'Evaluate the positive and negative influences of physical features on human settlements',
+            ],
+            keyInquiryQuestions: ['How has tectonic movement shaped the landscape and livelihood of Eastern Africa?'],
+            coreCompetencies: ['Digital literacy', 'Citizenship', 'Critical thinking'],
+            values: ['Patriotism', 'Care for environment'],
+            pcis: ['Disaster management (earthquakes, landslides, volcanic eruptions)'],
+            suggestedLearningExperiences: [
+              'Learners use topographical atlases and Google Earth to trace the Eastern and Western arms of the Rift Valley',
+              'Learners model block and volcanic mountains using clay, paper-mache, or cardboard layers',
+              'Learners debate the economic benefits of geothermal power from volcanic areas',
+            ],
+            suggestedResources: ['Eastern Africa Wall Map, School Atlases, Clay, papier-mâché, digital projectors'],
+            suggestedAssessment: ['Map-drawing and labelling rubric', 'Oral presentation', 'Structured questions'],
+          },
+          {
+            subStrandName: 'Climate Regions and Vegetation of Eastern Africa',
+            suggestedLessons: 6,
+            specificLearningOutcomes: [
+              'Identify the climatic zones of Eastern Africa and their distinctive characteristics',
+              'Analyze climate graphs (climographs) showing rainfall and temperature variations',
+              'Suggest mitigation measures against climate change in arid and semi-arid zones',
+            ],
+            keyInquiryQuestions: ['Why do climatic conditions vary greatly across Kenya, Uganda, and Tanzania?'],
+            coreCompetencies: ['Critical thinking', 'Global citizenship'],
+            values: ['Responsibility', 'Peace'],
+            pcis: ['Climate change adaptation', 'Environmental sustainability'],
+            suggestedLearningExperiences: [
+              'Learners plot temperature and rainfall graphs for Mombasa, Lodwar, and Kericho',
+              'Learners tree-plant or plan a school agroforestry conservation zone',
+            ],
+            suggestedResources: ['Climatic maps of Eastern Africa, weather instruments, meteorological data tables'],
+            suggestedAssessment: ['Graph interpretation test', 'Group project on environmental conservation'],
+          },
+        ],
+      },
+      {
+        strandName: 'People, Population and Culture',
+        subStrands: [
+          {
+            subStrandName: 'Migration Patterns and Social Integration',
+            suggestedLessons: 6,
+            specificLearningOutcomes: [
+              'Trace the migration routes of the Bantu, Nilotes, and Cushites into Eastern Africa',
+              'Describe the social and economic interactions among different linguistic groups',
+              'Promote cultural diversity, tolerance, and national cohesion in the school community',
+            ],
+            keyInquiryQuestions: ['How does our shared heritage build national unity in Kenya today?'],
+            coreCompetencies: ['Citizenship', 'Self-efficacy', 'Communication'],
+            values: ['Unity', 'Love', 'Respect for diversity'],
+            pcis: ['National cohesion and integration', 'Peace education'],
+            suggestedLearningExperiences: [
+              'Learners draw route maps showing historical migrations and settlements',
+              'Learners organize a cultural exhibition showcasing traditional food, music, and peace treaties',
+            ],
+            suggestedResources: ['Historical maps, audio-visual clips of Kenyan traditional dances, museum artifacts'],
+            suggestedAssessment: ['Observation of cultural appreciation', 'Essay question', 'Map sketching'],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'kicd-g7-agri-nutri-t1',
+    level: 'Junior School',
+    grade: 'Grade 7',
+    subject: 'Agriculture and Nutrition',
+    term: 'Term 1',
+    recommendedCourseBook: 'KLB Top Scholar Agriculture & Nutrition Grade 7',
+    defaultLessonsPerWeek: 4,
+    description: 'KICD Agriculture and Nutrition design covering Soil Conservation, Organic Farming, Vegetable Production, and Kitchen Hygiene.',
+    strands: [
+      {
+        strandName: 'Conservation Agriculture',
+        subStrands: [
+          {
+            subStrandName: 'Soil Pollution and Conservation Techniques',
+            suggestedLessons: 6,
+            specificLearningOutcomes: [
+              'Identify human practices that lead to soil pollution in the local community',
+              'Demonstrate practical soil conservation measures (mulching, contour farming, cover cropping)',
+              'Show responsibility towards maintaining soil fertility for sustainable food security',
+            ],
+            keyInquiryQuestions: ['Why is healthy soil considered the foundation of human survival?'],
+            coreCompetencies: ['Critical thinking and problem solving', 'Creativity and imagination'],
+            values: ['Responsibility', 'Integrity', 'Care for nature'],
+            pcis: ['Food security', 'Environmental protection', 'Safety in pesticide handling'],
+            suggestedLearningExperiences: [
+              'Learners conduct a nature walk around the school compound to identify signs of soil erosion and dumping',
+              'Learners prepare a demonstration plot applying dry grass mulch and compost manure',
+            ],
+            suggestedResources: ['Garden jembe, panga, rake, mulching materials, compost pit, soil samples'],
+            suggestedAssessment: ['Practical farm work checklist', 'Oral questions', 'Portfolio entry on soil health'],
+          },
+          {
+            subStrandName: 'Vegetable Nursery Bed Preparation',
+            suggestedLessons: 6,
+            specificLearningOutcomes: [
+              'Select suitable sites for establishing a vegetable nursery bed',
+              'Prepare a fine-tilth nursery bed incorporating well-rotted organic manure',
+              'Sow small vegetable seeds (spinach, kales, tomatoes) using the drilling method',
+            ],
+            keyInquiryQuestions: ['What factors ensure high seedling germination in a nursery bed?'],
+            coreCompetencies: ['Self-efficacy', 'Collaboration and teamwork'],
+            values: ['Hard work', 'Patience', 'Unity'],
+            pcis: ['Financial literacy (selling seedlings for income)', 'Nutrition and health'],
+            suggestedLearningExperiences: [
+              'Learners measure and dig a 1-metre-wide nursery bed',
+              'Learners mix topsoil with compost and level using a garden rake',
+              'Learners sow seeds in shallow furrows, cover lightly, and erect a temporary shade',
+            ],
+            suggestedResources: ['Certified seeds (sukuma wiki/spinach), watering can, sticks for shading, dry grass'],
+            suggestedAssessment: ['Rubric on nursery bed dimensions and seed drilling', 'Learner progress logbook'],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'kicd-g4-sci-tech-t1',
+    level: 'Upper Primary',
+    grade: 'Grade 4',
+    subject: 'Science and Technology',
+    term: 'Term 1',
+    recommendedCourseBook: 'Spotlight Science and Technology Grade 4 / Mentor',
+    defaultLessonsPerWeek: 4,
+    description: 'KICD Upper Primary Science & Technology covering Living Things (Vertebrates & Invertebrates), Environment, and Basic Digital Devices.',
+    strands: [
+      {
+        strandName: 'Living Things',
+        subStrands: [
+          {
+            subStrandName: 'Animals: Vertebrates and Invertebrates',
+            suggestedLessons: 8,
+            specificLearningOutcomes: [
+              'Differentiate between vertebrates and invertebrates using observable features',
+              'Identify common local animals with backbone (mammals, birds, reptiles, amphibians, fish)',
+              'Demonstrate care and empathy towards domestic and wild animals',
+            ],
+            keyInquiryQuestions: ['How can we classify animals found in our school environment?'],
+            coreCompetencies: ['Critical thinking', 'Communication and collaboration'],
+            values: ['Love', 'Respect for life', 'Care for animals'],
+            pcis: ['Animal welfare', 'Environmental conservation'],
+            suggestedLearningExperiences: [
+              'Learners observe pictures, video clips, or real specimens of insects, earthworms, fish, and birds',
+              'Learners sort animals into two main categories: with backbone vs without backbone',
+              'Learners create an animal scrapbook with pictures cut from old newspapers and magazines',
+            ],
+            suggestedResources: ['Pictures of various animals, animal charts, plastic models, magnifying glasses'],
+            suggestedAssessment: ['Sorting activity rubric', 'Oral questioning', 'Scrapbook presentation'],
+          },
+        ],
+      },
+      {
+        strandName: 'Digital Technology',
+        subStrands: [
+          {
+            subStrandName: 'Parts of a Computer and Safe Use',
+            suggestedLessons: 6,
+            specificLearningOutcomes: [
+              'Identify main parts of a computer system (monitor, CPU, keyboard, mouse, tablet screen)',
+              'Connect input and output devices safely under teacher guidance',
+              'Demonstrate good posture and ergonomic habits when using digital devices',
+            ],
+            keyInquiryQuestions: ['Why are computers essential in our daily lives?'],
+            coreCompetencies: ['Digital literacy', 'Self-efficacy'],
+            values: ['Responsibility', 'Care for equipment'],
+            pcis: ['Cyber safety and digital health'],
+            suggestedLearningExperiences: [
+              'Learners practice clicking, double-clicking, and dragging using a computer mouse or touchpad',
+              'Learners turn on and safely shut down desktop or tablet devices',
+            ],
+            suggestedResources: ['Tablets/Laptops/Desktops from DLP (Digital Literacy Programme), mouse, power strips'],
+            suggestedAssessment: ['Hands-on performance test', 'Safety observation checklist'],
+          },
+        ],
+      },
+    ],
+  },
+];
